@@ -28,4 +28,4 @@ class Product(models.Model):
     category = models.CharField(max_length=50)
     description = models.CharField(max_length=50)
 
-class Order(models.Model):
+# class Order(models.Model):
