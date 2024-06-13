@@ -44,3 +44,10 @@ class Order(models.Model):
     def __str__(self):
         return self.product
     
+# class Cart(models.Model):
+#     cart = models.ForeignKey(Cart, on_delete=models.CASCADE)
+#     product = models.ForeignKey(Product, on_delete=models.CASCADE)
+#     quality = models.PositiveIntegerField(default=1)
+
+#     def __str__(self):
+#         return self.name
